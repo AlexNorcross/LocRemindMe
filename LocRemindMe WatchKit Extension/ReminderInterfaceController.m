@@ -23,8 +23,13 @@
   [super awakeWithContext:context];
   
   CLCircularRegion *region = context;
-  MKCoordinateRegion mkRegion = MKCoordinateRegionMake(CLLocationCoordinate2DMake(region.center.latitude, region.center.longitude), MKCoordinateSpanMake(1, 1));
+  CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(region.center.latitude, region.center.longitude);
+  MKCoordinateRegion mkRegion = MKCoordinateRegionMake(coordinate, MKCoordinateSpanMake(1, 1));
   [_mapView setRegion:mkRegion];
+  
+  MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
+  annotation.coordinate = region.center;
+  [_mapView addAnnotation:coordinate withPinColor:WKInterfaceMapPinColorRed];
 } //end func
 
 - (void)willActivate {

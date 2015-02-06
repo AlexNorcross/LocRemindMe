@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>90F7756D-3891-4ADA-8DCC-164474515CEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LocRemindMe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7FA2383BA2B6564AB88E548F90D02CA09205E19F</key>
+		<string>https://github.com/AlexNorcross/LocRemindMe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LocRemindMe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7FA2383BA2B6564AB88E548F90D02CA09205E19F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AlexNorcross/LocRemindMe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7FA2383BA2B6564AB88E548F90D02CA09205E19F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7FA2383BA2B6564AB88E548F90D02CA09205E19F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LocRemindMe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
