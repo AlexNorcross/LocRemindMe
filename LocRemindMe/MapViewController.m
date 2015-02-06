@@ -11,6 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "Stack.h"
 #import "Queue.h"
+#import "LinkedList.h"
 #import "AddReminderViewController.h"
 
 @interface MapViewController () <CLLocationManagerDelegate, MKMapViewDelegate>
@@ -55,7 +56,7 @@
   [myStack pushItem:@3];
   [myStack popItem];
   NSNumber *peekAtStack = [myStack peek];
-  NSLog(@"%@",peekAtStack);
+  NSLog(@"peek at stack %@",peekAtStack);
   
   //Queue:
   Queue *myQueue = [[Queue alloc] init];
@@ -64,7 +65,20 @@
   [myQueue enqueue:@3];
   [myQueue dequeue];
   NSNumber *peekAtQueue = [myQueue peek];
-  NSLog(@"%@",peekAtQueue);
+  NSLog(@"peek at queue %@",peekAtQueue);
+  
+  //Linked lists:
+  LinkedList *myList = [[LinkedList alloc] init];
+  [myList addToHead:@"hello"];
+  [myList addToHead:@"and"];
+  [myList addToHead:@"goodbye"];
+  [myList addToEnd:@"!!!"];
+  [myList addToEndRecursively:@"good morning"];
+  NSLog(@"linked list @ 0 %@", [myList atIndex:0].myString);
+  NSLog(@"linked list @ 1 %@", [myList atIndex:1].myString);
+  NSLog(@"linked list @ 2 %@", [myList atIndex:2].myString);
+  NSLog(@"linked list @ 3 %@", [myList atIndex:3].myString);
+  NSLog(@"linked list @ 4 %@", [myList atIndex:4].myString);
 } //end func
 
 #pragma mark - IBActions

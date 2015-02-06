@@ -28,6 +28,8 @@
 		BA0817F81A8429EE00A2B606 /* LocRemindMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BA0817D81A8429EE00A2B606 /* LocRemindMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BA0818021A842AAB00A2B606 /* ReminderInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0818011A842AAB00A2B606 /* ReminderInterfaceController.m */; };
 		BA0818051A8432E300A2B606 /* RegionReminderRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0818041A8432E300A2B606 /* RegionReminderRowController.m */; };
+		BAA8280D1A854948002F279F /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA8280C1A854948002F279F /* Node.m */; };
+		BAA828101A85495D002F279F /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA8280F1A85495D002F279F /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,10 @@
 		BA0818011A842AAB00A2B606 /* ReminderInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderInterfaceController.m; sourceTree = "<group>"; };
 		BA0818031A8432E300A2B606 /* RegionReminderRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionReminderRowController.h; sourceTree = "<group>"; };
 		BA0818041A8432E300A2B606 /* RegionReminderRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionReminderRowController.m; sourceTree = "<group>"; };
+		BAA8280B1A854948002F279F /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		BAA8280C1A854948002F279F /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		BAA8280E1A85495D002F279F /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		BAA8280F1A85495D002F279F /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +231,10 @@
 				BA0817C21A84284500A2B606 /* Queue.m */,
 				BA0817C31A84284500A2B606 /* Stack.h */,
 				BA0817C41A84284500A2B606 /* Stack.m */,
+				BAA8280B1A854948002F279F /* Node.h */,
+				BAA8280C1A854948002F279F /* Node.m */,
+				BAA8280E1A85495D002F279F /* LinkedList.h */,
+				BAA8280F1A85495D002F279F /* LinkedList.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -443,6 +453,8 @@
 			files = (
 				BA0817C91A84287F00A2B606 /* AddReminderViewController.m in Sources */,
 				BA08179B1A84277F00A2B606 /* main.m in Sources */,
+				BAA828101A85495D002F279F /* LinkedList.m in Sources */,
+				BAA8280D1A854948002F279F /* Node.m in Sources */,
 				BA0817CF1A8428C000A2B606 /* AppDelegate.m in Sources */,
 				BA0817CC1A84288D00A2B606 /* MapViewController.m in Sources */,
 				BA0817C61A84284500A2B606 /* Stack.m in Sources */,
@@ -715,6 +727,7 @@
 				BA0817BA1A84277F00A2B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0817BB1A84277F00A2B606 /* Build configuration list for PBXNativeTarget "LocRemindMeTests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +736,7 @@
 				BA0817BD1A84277F00A2B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0817F91A8429EE00A2B606 /* Build configuration list for PBXNativeTarget "LocRemindMe WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +745,7 @@
 				BA0817FB1A8429EE00A2B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA0817FC1A8429EE00A2B606 /* Build configuration list for PBXNativeTarget "LocRemindMe WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +754,7 @@
 				BA0817FE1A8429EE00A2B606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
